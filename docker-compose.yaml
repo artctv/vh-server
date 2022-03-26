@@ -6,9 +6,10 @@ services:
       - 2456:2456/udp
       - 2457:2457/udp
       - 2458:2458/udp
+      - 2460:2460
     environment:
       HTTP_PORT: 2460
-      ADDRES: 78.140.241.46:2457
+      # ADDRES: 78.140.241.46:2457
       PORT: 2456
       NAME: "Created With Valheim Docker"
       WORLD: "Dedicated"
